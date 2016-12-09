@@ -11,16 +11,6 @@
     tools:context="com.app.maffan.themeinaction.MainActivity">
 
     <Button
-        android:text="Red Theme"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="61dp"
-        android:id="@+id/red_button"
-        android:layout_alignParentTop="true"
-        android:onClick="onRedClick"
-        android:layout_centerHorizontal="true" />
-
-    <Button
         android:text="Green"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -29,7 +19,9 @@
         android:layout_alignLeft="@+id/red_button"
         android:layout_alignStart="@+id/red_button"
         android:onClick="onGreenClick"
-        android:layout_marginTop="43dp" />
+        android:layout_marginTop="43dp"
+        android:layout_alignRight="@+id/red_button"
+        android:layout_alignEnd="@+id/red_button" />
 
     <Button
         android:text="Blue"
@@ -43,4 +35,14 @@
         android:onClick="onBlueClick"
         android:layout_alignRight="@+id/green_button"
         android:layout_alignEnd="@+id/green_button" />
+
+    <Button
+        android:text="Red Theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:id="@+id/red_button"
+        android:onClick="onRedClick"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

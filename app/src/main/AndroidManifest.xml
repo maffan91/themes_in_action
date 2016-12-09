@@ -16,11 +16,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".RedActivity"
+            android:label="Red Theme"
             android:theme="@style/RedTheme"
             />
         <activity android:name=".GreenActivity"
+            android:label="Green Theme"
             android:theme="@style/GreenTheme"/>
         <activity android:name=".BlueActivity"
+            android:label="Blue Theme"
             android:theme="@style/BlueTheme">
         </activity>
     </application>
